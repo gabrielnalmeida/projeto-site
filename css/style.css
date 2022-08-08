@@ -1,0 +1,255 @@
+body{
+    width: 75.625rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 6px 17px -2px grey;
+    border-radius: 7px;
+}
+
+.logo-site{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+
+#logo-title{
+    font-size: 37px;
+    font-weight: 600;
+    color: orange;
+    margin: 15px 0 0 75px;
+}
+
+.logo-subtitle{
+    list-style: none;
+    margin: 18px 0 0 5px;
+    width: 75px;
+}
+
+.nav-menu{
+    margin: 20px 0 20px 820px;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hamburger1{ 
+    position: absolute;
+    display: block;
+    background: white;
+    width: 28px;
+    height: 3px;
+    margin: 15px 11px 0 11px;
+}
+
+.hamburger2{ 
+    position: absolute;
+    display: block;
+    background: white;
+    width: 28px;
+    height: 3px;
+    margin: 23px 11px 0 11px;
+}
+
+.hamburger3{ 
+    position: absolute;
+    display: block;
+    background: white;
+    width: 28px;
+    height: 3px;
+    margin: 31px 11px 0 11px;
+}
+
+.homepics{
+    text-align: center;
+}
+
+.homepic{
+    margin: 70px 0 0 0;
+    width: 860px;
+}
+
+.arrows{
+    position: relative;
+}
+
+#arrow-right{
+    position: absolute;
+    margin: -200px 0 0 350px;
+    font-size: 50px;
+    z-index: 5;
+    color: white;
+}
+
+#circle-right{
+    position: absolute;
+    margin: -208px 0 0 333px;
+    font-size: 65px;
+    z-index: 4;
+    opacity: 50%;
+}
+
+#arrow-left{
+    position: absolute;
+    margin: -200px 0 0 -375px;
+    font-size: 50px;  
+    z-index: 5;
+    color: white;
+}
+
+#circle-left{
+    position: absolute;
+    margin: -208px 0 0 -390px;
+    font-size: 65px;
+    z-index: 4;
+    opacity: 50%;
+}
+
+
+.home-offers{
+    width: 880px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#offers-pic{
+    width: 100%;
+}
+
+#align-side{
+    display: flex;
+    flex-direction: row;
+}
+
+.new-house{
+    width: 430px;
+    margin: 100px 10px 0 10px;
+    background: #faf9f9;
+}
+
+.new-alert{
+    margin: 17.5px 0 0 200px;
+    padding-top: 3px;
+    background-color: #25a244;
+    border-radius: 1.875rem;
+    width: 3.638rem;
+    height: 1.338rem;
+    text-align: center;
+    color: white;
+    font-weight: bold ;
+    font-size: 18px;
+}   
+
+h2{
+    margin: 10px 0 0 10px;
+    box-sizing: border-box;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+#house-description{
+    text-align: center;
+    margin: 15px 20px;
+}
+
+.sale-house{
+    width: 430px;
+    margin: 100px 10px 0 10px;
+    background: #faf9f9;
+}
+
+.sale-alert{
+    margin: 17.5px 0 0 200px;
+    padding-top: 3px;
+    background-color: #ffb700;
+    border-radius: 1.875rem;
+    width: 3.638rem;
+    height: 1.338rem;
+    text-align: center;
+    color: white;
+    font-weight: bold ;
+    font-size: 18px;
+}
+
+.categories{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 60px;
+}
+
+#categorie-industrial{
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin: 55px 0 0 535px;
+    color: white;
+    z-index: 1;
+}
+
+#categorie-classic{
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin: 55px 0 0 545px;
+    color: white;
+    z-index: 1;
+}
+
+#categorie-modern{
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin: 55px 0 0 540px;
+    color: white;
+    z-index: 1;
+}
+
+#categorie-img{
+    width: 860px;
+    margin: 10px 0;
+    opacity: 70%;
+}
+
+footer{
+    background: #333533;
+    height: 300px;
+    margin-top: 100px;
+}
+
+#mapa{
+    width: 700px;
+    height: 250px;
+    margin: 25px 25px;
+}
+
+.data{
+    color: white;
+    float: right;
+    margin: 25px 100px 0 0;
+    font-size: 16px;
+}
+
+.data li{
+    margin: 0 0 30px 0;
+}
+
+.logos{
+    font-size: 42px;
+    margin: 10px 0 0 0;
+}
