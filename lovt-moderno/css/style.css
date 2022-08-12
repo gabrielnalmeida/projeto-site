@@ -1,43 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root{
+    --branco-principal : #FFFFFF;
+}
+
 body{
-    font-family: 'Heebo', sans-serif;
-    background-color: gray;
+    width: 100vw;
+    height: 100vh;
 }
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
 }
 
 .cabecalho{
+    position: absolute;
     display: flex;
+    background-color: transparent;
 }
 
+
 .cabecalho__logo{
-    width: 5em;
-    padding: 1em 0.3em;
+    width: 6em;
+    padding: 2em 0 0 0.3em;
 }
 
 .cabecalho__menu{
-    position: relative;
-    justify-self: flex-end;
+    
 }
 
 .menu__hamburger{
     display:block;
-    background: #FFFFFF;
+    position: absolute;
+    background: var(--branco-principal);
     width: 35px;
     height: 4px;
     border-radius: 5px;
-    margin: 3.5em 0 0 14.5em;
-       
+    margin: 4.2em 0 0 13.5em;
 }
     
 .menu__hamburger:before, .menu__hamburger:after{
     display:block;
     position: absolute;
-    background: #FFFFFF;
+    background: var(--branco-principal);
     width: 25px;
     height: 4px;
     border-radius: 5px;
@@ -52,4 +60,32 @@ body{
 .menu__hamburger:after{
     content: '';
     margin: 10px 0 0 10px;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    scroll-snap-align: start;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container__um{
+    background-image: url("../img/House-Image-Mobile-Site-Intro.jpg");  
+}
+
+.container__dois{
+    background-image: url("../img/section2-bg.jpg");
+}
+
+.container__tres{
+    background-image: url("../img/section2-bg.jpg");
+}
+
+.container__quatro{
+    background-image: url("../img/section2-bg.jpg");
 }
